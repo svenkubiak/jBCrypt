@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.svenkubiak</groupId>
 	<artifactId>jBCrypt</artifactId>
@@ -9,9 +10,21 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-		<prerequisites>
+	<prerequisites>
 		<maven>3.1.0</maven>
 	</prerequisites>
+	<licenses>
+		<license>
+			<name>ISC/BSD licence</name>
+			<url>http://www.mindrot.org/files/jBCrypt/LICENSE</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Damien Miller</name>
+			<email>djm@mindrot.org</email>
+		</developer>
+	</developers>
 	<scm>
 		<connection>scm:git:git@github.com:svenkubiak/jBCrypt.git</connection>
 		<developerConnection>scm:git:git@github.com:svenkubiak/jBCrypt.git</developerConnection>
@@ -87,7 +100,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-		<distributionManagement>
+	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
