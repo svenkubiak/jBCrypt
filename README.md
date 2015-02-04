@@ -41,8 +41,7 @@ There is also a [C#/.NET port by Derek Slager](http://derekslager.com/blog/posts
 # Package notes
 
 This is an alternative distribution of [jBCrypt](http://www.mindrot.org/projects/jBCrypt). It has been
-packaged to ease use in existing applications &mdash; especially those using
-Apache Maven with Maven Central. 
+packaged to ease use in existing applications &mdash; especially those using Maven Central. 
 
 The code is unchanged from the original jBCrypt 0.4, however:
 
