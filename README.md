@@ -47,7 +47,7 @@ The code is unchanged from the original jBCrypt 0.4, however:
 
 - The JBCrypt class JavaDoc has been changed to version 0.4. The official
   package incorrectly contains 0.2 as the stated version.
-- Current version 0.4.0 matches the original JBCryptm 0.4 version
+- Current version 0.4.0 matches the original JBCrypt 0.4 version
 - A pom.xml file has been added for use with Maven 
 - Unit tests are automatically executed by travis-ci.org
 - Sources a compiled against Java 1.8
