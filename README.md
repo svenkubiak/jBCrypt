@@ -45,12 +45,11 @@ packaged to ease use in existing applications &mdash; especially those using Mav
 
 The code is unchanged from the original jBCrypt 0.4, however:
 
-- The classes have been moved to a java package to avoid pollution of the
-  global namespace. *org.mindrot* was chosen to reflect their original origin.
-- The JBCrypt class javadoc has been changed to version 0.4. The official
+- The JBCrypt class JavaDoc has been changed to version 0.4. The official
   package incorrectly contains 0.2 as the stated version.
+- Current version 0.4.0 matches the original JBCryptm 0.4 version
 - A pom.xml file has been added for use with Maven 
-- Unit tests are automaticly executed by travis-ci.org
+- Unit tests are automatically executed by travis-ci.org
 - Sources a compiled against Java 1.8
 
 ## Maven setup
