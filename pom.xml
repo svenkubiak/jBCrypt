@@ -4,7 +4,7 @@
 	<groupId>de.svenkubiak</groupId>
 	<artifactId>jBCrypt</artifactId>
 	<version>0.5-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>bundle</packaging>
 	<name>jBCrypt</name>
 	<url>http://www.mindrot.org/projects/jBCrypt</url>
 	<properties>
@@ -44,6 +44,12 @@
 					<debug>false</debug>
 					<optimize>true</optimize>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>3.0.1</version>
+				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
