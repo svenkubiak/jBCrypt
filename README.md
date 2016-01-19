@@ -59,6 +59,6 @@ Use it in your project by adding the following to your project *pom.xml*:
 
         <dependency>
             <groupId>de.svenkubiak</groupId>
-            <artifactId>jBcrypt</artifactId>
+            <artifactId>jBCrypt</artifactId>
             <version>0.4.1</version>
         </dependency>
