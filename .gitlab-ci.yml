@@ -1,3 +1,5 @@
+image: adoptopenjdk/maven-openjdk8
+
 stages:
   - test
   - sonar
