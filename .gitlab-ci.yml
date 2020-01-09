@@ -15,10 +15,3 @@ cache:
 test:
   stage: test
   script: mvn $MAVEN_CLI_OPTS clean verify
-
-sonar:
-  stage: sonar
-  script: 
-  - mvn $MAVEN_CLI_OPTS clean verify sonar:sonar --settings settings.xml   
-  only:
-  - master
