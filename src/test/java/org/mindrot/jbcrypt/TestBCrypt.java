@@ -14,7 +14,6 @@
 
 package org.mindrot.jbcrypt;
 
-import org.mindrot.jbcrypt.BCrypt;
 import junit.framework.TestCase;
 
 /**
